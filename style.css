@@ -34,14 +34,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Safety', sans-serif;
+    font-family: 'impact';
     font-weight: 400;
     font-size: 2rem;
     margin: 0;
 }
 
 h3 {
-    font-family: 'Safety', sans-serif;
+    font-family: 'impact';
     font-weight: 400;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -60,6 +60,120 @@ p {
 
 /****MENU****/
 
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #28292c;
+    height: 110px;
+
+}
+
+.hidden {
+    transform: translateX(100%)
+}
+
+#menuknap {
+    cursor: pointer;
+    font-size: 3rem;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    line-height: 1;
+    color: white;
+}
+
+#menu {
+    padding: 0;
+    list-style-type: none;
+    transition: all .3s;
+    position: absolute;
+    right: 0;
+    top: 110px;
+    margin: 0;
+    font-family: 'Safety', sans-serif;
+}
+
+header li {
+    width: 100vw;
+    background-color: #00032A;
+    text-align: right;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    background-color: #00032A;
+    padding: 10px 20px 10px 100px;
+    line-height: 2.4;
+    cursor: pointer;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    background-color: #00032A;
+    padding: 10px 20px 10px 100px;
+    line-height: 2.4;
+}
+
+header li a:hover {
+    color: #AA0009;
+}
+
+.selected {
+    color: #AA0009;
+}
+
+#logo1 img {
+    display: block;
+    position: absolute;
+    width: 15rem;
+    left: 1%;
+    margin: 0;
+}
+
+@media only screen and (min-width: 900px) {
+    header {
+        position: sticky;
+
+    }
+
+    header li {
+        padding: 0;
+        margin: 0 10px;
+        font-size: 1.5rem;
+        background-color: #28292c;
+    }
+
+    header li a {
+        padding: 0;
+        margin: 0 10px;
+        font-size: 1.5rem;
+        background-color: #28292c;
+    }
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline;
+    }
+
+    #menu {
+        top: 50px;
+
+    }
+}
+
+/*
 header {
     position: fixed;
     width: 100%;
@@ -99,6 +213,7 @@ header nav h3:hover {
     }
 
 }
+*/
 
 
 /****MENU SLUT****/
@@ -188,6 +303,11 @@ header nav h3:hover {
     text-align: center;
 }
 
+
+#kampagne3 h2 {
+    color: white;
+}
+
 #kampagne3 p {
     color: white;
 }
@@ -237,6 +357,10 @@ header nav h3:hover {
     color: white;
 }
 
+#kampagne5 h2 {
+    color: white;
+}
+
 #kampagne5 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -268,6 +392,10 @@ header nav h3:hover {
 #kampagne6 h1,
 p {
     color: white;
+}
+
+#kampagne6 b {
+    color: red;
 }
 
 #kampagne6 .sectionwrapper {
@@ -305,7 +433,56 @@ p {
 
 /****KAMPAGNE 7 SLUT****/
 
+/****KAMPAGNE 8****/
 
+#kampagne8 {
+    background-color: #383d45;
+}
+
+#kampagne8 h1,
+p {
+    color: white;
+}
+
+#kampagne8 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#kampagne8 .tekst {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#kampagne8 .billede {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+/****KAMPAGNE 8 SLUT****/
+
+/****FOOTER****/
+
+footer {
+    font-family: 'impact';
+    font-size: ;
+    background-color: #28292c;
+    color: white;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    line-height: 1.5;
+}
+
+/****FOOTER SLUT****/
 
 @media only screen and (min-width:900px) {
     #test .test {
