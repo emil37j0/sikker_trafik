@@ -34,14 +34,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Safety', sans-serif;
+    font-family: 'impact';
     font-weight: 400;
     font-size: 2rem;
     margin: 0;
 }
 
 h3 {
-    font-family: 'Safety', sans-serif;
+    font-family: 'impact';
     font-weight: 400;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -188,6 +188,11 @@ header nav h3:hover {
     text-align: center;
 }
 
+
+#kampagne3 h2 {
+    color: white;
+}
+
 #kampagne3 p {
     color: white;
 }
@@ -237,6 +242,10 @@ header nav h3:hover {
     color: white;
 }
 
+#kampagne5 h2 {
+    color: white;
+}
+
 #kampagne5 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -268,6 +277,10 @@ header nav h3:hover {
 #kampagne6 h1,
 p {
     color: white;
+}
+
+#kampagne6 b {
+    color: red;
 }
 
 #kampagne6 .sectionwrapper {
@@ -305,7 +318,56 @@ p {
 
 /****KAMPAGNE 7 SLUT****/
 
+/****KAMPAGNE 8****/
 
+#kampagne8 {
+    background-color: #383d45;
+}
+
+#kampagne8 h1,
+p {
+    color: white;
+}
+
+#kampagne8 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#kampagne8 .tekst {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#kampagne8 .billede {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+/****KAMPAGNE 8 SLUT****/
+
+/****FOOTER****/
+
+footer {
+    font-family: 'impact';
+    font-size: ;
+    background-color: #28292c;
+    color: white;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    line-height: 1.5;
+}
+
+/****FOOTER SLUT****/
 
 @media only screen and (min-width:900px) {
     #test .test {
