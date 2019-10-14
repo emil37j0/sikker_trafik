@@ -2,6 +2,7 @@
 
 body {
     margin: 0 auto;
+    background-color: #28292c;
 }
 
 section,
@@ -61,12 +62,14 @@ p {
 
 /****MENU****/
 
+
+
 header {
     position: fixed;
     width: 100%;
     background-color: #28292c;
     height: 110px;
-
+    z-index: 5;
 }
 
 .hidden {
@@ -183,16 +186,11 @@ header li a:hover {
 
 /****BAGGRUNDSVIDEO****/
 
-#BG_video {
-    position: relative;
-}
 
 
 #baggrunds_video {
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 
