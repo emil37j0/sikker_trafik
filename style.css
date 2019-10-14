@@ -52,6 +52,7 @@ p {
     font-family: 'Safety', sans-serif;
     font-weight: 200;
     font-size: 1rem;
+    margin: 0;
 }
 
 
@@ -78,7 +79,7 @@ header {
     position: absolute;
     right: 30px;
     top: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'impact';
     padding: 10px;
     line-height: 1;
     color: white;
@@ -92,34 +93,38 @@ header {
     right: 0;
     top: 110px;
     margin: 0;
-    font-family: 'Safety', sans-serif;
 }
+
 
 header li {
     width: 100vw;
-    background-color: #00032A;
+    background-color: rgba(56, 61, 69, 0.97);
     text-align: right;
     margin: 0;
     text-decoration: none;
-    color: white;
-    font-size: 2rem;
-    background-color: #00032A;
-    padding: 10px 20px 10px 100px;
-    line-height: 2.4;
+    padding: 10px 20px;
+    line-height: 2;
     cursor: pointer;
+    font-family: 'impact';
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
 }
 
 header li a {
     text-decoration: none;
     color: white;
-    font-size: 2rem;
-    background-color: #00032A;
-    padding: 10px 20px 10px 100px;
-    line-height: 2.4;
+    font-family: 'impact';
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 header li a:hover {
-    color: #AA0009;
+    color: #383d45;
+    background-color: white;
+    transition: 0.5s;
 }
 
 .selected {
@@ -134,7 +139,7 @@ header li a:hover {
     margin: 0;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1095px) {
     header {
         position: sticky;
 
@@ -168,53 +173,10 @@ header li a:hover {
     }
 
     #menu {
-        top: 50px;
+        top: 35%;
 
     }
 }
-
-/*
-header {
-    position: fixed;
-    width: 100%;
-    background-color: #28292c;
-
-}
-
-header nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-header nav h3:hover {
-    cursor: pointer;
-}
-
-#logo1 img {
-    display: block;
-    position: absolute;
-    width: 15rem;
-    left: 1%;
-    top: -25px;
-    margin: 0;
-}
-
-@media only screen and (min-width:1095px) {
-    header nav {
-        flex-direction: row;
-        justify-content: flex-end;
-        margin: 1rem;
-    }
-
-    header nav h3 {
-        margin: 0.5rem 0.5rem;
-        padding: 0 1.1rem 0 0;
-    }
-
-}
-*/
-
 
 /****MENU SLUT****/
 
@@ -240,12 +202,14 @@ header nav h3:hover {
 
 #kampagne1 .sectionwrapper {
     background-color: #28292c;
-    margin-top: -10px;
 }
 
 #kampagne1 .col {
-    text-align: center;
-    line-height: 1.2;
+    line-height: 1.3;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 0.98rem;
 }
 
 #kampagne1 h2 {
@@ -266,13 +230,21 @@ header nav h3:hover {
 
 #kampagne2 {
     background-color: #28292c;
+    line-height: 1.3;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 0.98rem;
+}
+
+#kampagne2 .tekst2 {
+    margin-left: 8rem;
 }
 
 #kampagne2 h1 {
     color: white;
 }
 
-#kampagne2 .tekst2 {}
 
 
 /****KAMPAGNE 2 SLUT****/
@@ -343,11 +315,15 @@ header nav h3:hover {
 
 #kampagne4 {
     background-color: #eaeaea;
+    line-height: 1.3;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 0.98rem;
 }
 
 #kampagne4 h1 {
     color: #383d45;
-    text-align: center;
 }
 
 /****KAMPAGNE 4 SLUT****/
@@ -429,11 +405,15 @@ p {
 
 #kampagne7 {
     background-color: #eaeaea;
+    line-height: 1.3;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 0.25rem;
 }
 
 #kampagne7 h1 {
     color: #383d45;
-    text-align: center;
 }
 
 /****KAMPAGNE 7 SLUT****/
@@ -444,7 +424,7 @@ p {
     background-color: #383d45;
 }
 
-#kampagne8 h1,
+#kampagne8 h2,
 p {
     color: white;
 }
@@ -479,12 +459,11 @@ footer {
     background-color: #28292c;
     color: white;
     width: 100%;
-    padding-top: 0.5rem;
-    padding-left: 0.5rem;
     position: relative;
     left: 0;
     bottom: 0;
     line-height: 1.5;
+    100vw;
 }
 
 /****FOOTER SLUT****/
