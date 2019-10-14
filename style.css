@@ -221,13 +221,18 @@ header nav h3:hover {
 
 /****BAGGRUNDSVIDEO****/
 
-#baggrundsvideo {
-    background-image: url(img/1.jpg);
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    background-position: 70% 0%;
+#BG_video {
+    position: relative;
 }
+
+
+#baggrunds_video {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 
 /****BAGGRUNDSVIDEO SLUT****/
 
