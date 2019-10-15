@@ -32,6 +32,7 @@ h1 {
     font-size: 2.4rem;
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
 }
 
 h2 {
@@ -39,6 +40,7 @@ h2 {
     font-weight: 400;
     font-size: 1.7rem;
     margin: 0;
+    text-align: center;
 }
 
 h3 {
@@ -56,6 +58,27 @@ p {
     margin: 0;
 }
 
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tekst {
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin-left: 2.5rem;
+    margin-right: 2.3rem;
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.billede {
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 1.2rem;
+}
 
 /****GENERELLE INDSTILLINGER SLUT****/
 
@@ -239,11 +262,11 @@ header li a:hover {
 }
 
 #kampagne2 .tekst1 {
-    margin-left: -0.4rem;
+    margin-left: -3rem;
 }
 
 #kampagne2 .tekst2 {
-    margin-left: 5rem;
+    margin-left: 4rem;
 }
 
 #kampagne2 h1 {
@@ -289,38 +312,18 @@ header li a:hover {
 
 #kampagne3 h2 {
     color: white;
+    text-align: left;
 }
 
 #kampagne3 p {
     color: white;
 }
 
-#kampagne3 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#kampagne3 .tekst {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin-left: 2.5rem;
-    margin-right: 2.3rem;
-    line-height: 1.4;
-    margin-top: 1rem;
-}
-
-#kampagne3 .billede {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    margin-top: 1.2rem;
-}
-
 #kampagne3 .hashtag {
     margin-top: 1.3rem;
     margin-bottom: 1rem;
 }
+
 
 /****KAMPAGNE 3 SLUT****/
 
@@ -337,6 +340,7 @@ header li a:hover {
 
 #kampagne4 h1 {
     color: #383d45;
+    text-align: center;
 }
 
 /****KAMPAGNE 4 SLUT****/
@@ -354,30 +358,7 @@ header li a:hover {
 
 #kampagne5 h2 {
     color: white;
-}
-
-#kampagne5 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-#kampagne5 .tekst {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    line-height: 1.4;
-    margin-top: 1rem;
-}
-
-#kampagne5 .billede {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-top: 1.2rem;
-    margin-bottom: 1rem;
+    text-align: center;
 }
 
 /****KAMPAGNE 5 SLUT****/
@@ -395,34 +376,11 @@ p {
 
 #kampagne6 h1 {
     margin-bottom: 1rem;
+    font-size: 1.84rem;
 }
 
 #kampagne6 b {
     color: red;
-}
-
-#kampagne6 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-#kampagne6 .tekst {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    line-height: 1.4;
-    margin-top: 1rem;
-}
-
-#kampagne6 .billede {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1.2rem;
-    margin-bottom: 1rem;
 }
 
 /****KAMPAGNE 6 SLUT****/
@@ -435,7 +393,7 @@ p {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     padding-left: 1rem;
-    padding-right: 0.25rem;
+    padding-right: 1rem;
 }
 
 #kampagne7 h1 {
@@ -459,30 +417,6 @@ p {
     margin-bottom: 1rem;
 }
 
-#kampagne8 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-#kampagne8 .tekst {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    line-height: 1.4;
-    margin-top: 1rem;
-}
-
-#kampagne8 .billede {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1.2rem;
-    margin-bottom: 1rem;
-}
-
 /****KAMPAGNE 8 SLUT****/
 
 /****FOOTER****/
@@ -503,72 +437,54 @@ footer {
 /****FOOTER SLUT****/
 
 @media only screen and (min-width:500px) {
+    .tekst {
+        margin-left: 4rem;
+        margin-right: 3.5rem;
+        margin-top: 1rem;
+    }
+
+    .billede {
+        margin-left: 4rem;
+        margin-right: 4rem;
+        margin-top: 1.2rem;
+    }
+
     #kampagne1 h2 {
         font-size: 1.7rem;
         margin-left: 0.5rem;
-        text-align: center;
     }
 
     #kampagne2 .tekst1 {
-        margin-left: 1.5rem;
+        margin-left: -10rem;
     }
 
     #kampagne2 .tekst2 {
         margin-left: 10rem;
     }
 
-    #kampagne3 .tekst {
-        margin-left: 4rem;
-        margin-right: 3.5rem;
-        margin-top: 1rem;
-    }
-
-    #kampagne3 .billede {
-        margin-left: 4rem;
-        margin-right: 4rem;
-        margin-top: 1.2rem;
-    }
-
-    #kampagne4 h1 {
-        text-align: center;
-    }
-
-    #kampagne5 .tekst {
-        margin-left: 3.5rem;
-        margin-right: 3.5rem;
-        margin-top: 1rem;
-    }
-
     #kampagne5 .billede {
-        margin-left: 5rem;
         margin-right: 5rem;
-        margin-top: 1.2rem;
-    }
-
-    #kampagne5 h2 {
-        text-align: center;
-    }
-
-    #kampagne6 .tekst {
-        margin-left: 3.5rem;
-        margin-right: 3.5rem;
-        margin-top: 1rem;
-    }
-
-    #kampagne6 .billede {
-        margin-left: 3rem;
-        margin-right: 2rem;
-        margin-top: 1.2rem;
+        margin-left: 5rem;
     }
 
     #kampagne6 h1 {
-        text-align: center;
         font-size: 2.1rem;
     }
 
-    #kampagne7 h1 {
-        text-align: center;
+    #kampagne6 .billede {
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
     }
+
+    #kampagne8 h1 {
+        font-size: 2.1rem;
+    }
+
+    #kampagne8 .billede {
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+
 }
 
 @media only screen and (min-width:900px) {
