@@ -256,18 +256,37 @@ header li a:hover {
 
 /****KAMPAGNEVIDEO****/
 
-#kampagnevideo {
+#kampagnevideo,
+#kampagnevideo_instagram,
+#kampagnevideo_facebook,
+#kampagnevideo_baggrundsvideo {
     background-color: #383d45;
 }
 
-#kampagnevideo video {
+#kampagnevideo video,
+#kampagnevideo_instagram video,
+#kampagnevideo_facebook video,
+#kampagnevideo_baggrundsvideo video {
     width: 100%;
 }
 
+<<<<<<< HEAD
 #kampagnevideo .video {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+=======
+#kampagnevideo .video,
+#kampagnevideo_instagram .video,
+#kampagnevideo_facebook .video,
+#kampagnevideo_baggrundsvideo .video {
+    margin: 1.5rem;
+>>>>>>> origin/master
 
+}
+
+#trykt_kampagne {
+    margin: 1.5rem;
+    background-color: #383d45;
 }
 
 /****KAMPAGNEVIDEO SLUT****/
@@ -462,6 +481,33 @@ footer {
     bottom: 0;
     line-height: 1.5;
     100vw;
+
+}
+
+.ul_footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer_left {
+    text-align: left;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 10px 10px 10px 15px;
+}
+
+#footer_right {
+    text-align: right;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 10px 15px 10px 10px;
 }
 
 /****FOOTER SLUT****/
