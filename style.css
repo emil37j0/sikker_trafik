@@ -105,8 +105,6 @@ a {
 
 /****MENU****/
 
-
-
 header {
     position: fixed;
     width: 100%;
@@ -226,6 +224,35 @@ header li a:hover {
 
 /****MENU SLUT****/
 
+/****VIDEOSITE****/
+
+#videosite {
+    background-color: #383d45;
+}
+
+#videosite .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tryk_kampagne {
+    width: 480px;
+    min-height: auto;
+}
+
+#videosite h1 {
+    color: white;
+    font-weight: 100;
+}
+
+.videoer,
+.tryk_kampagne {
+    margin: 1rem;
+}
+
+/****VIDEOSITE SLUT****/
+
 
 /****BAGGRUNDSVIDEO****/
 
@@ -263,29 +290,17 @@ header li a:hover {
 
 /****KAMPAGNEVIDEO****/
 
-#kampagnevideo,
-#kampagnevideo_instagram,
-#kampagnevideo_facebook,
-#kampagnevideo_baggrundsvideo {
+#kampagnevideo {
     background-color: #383d45;
 }
 
-#kampagnevideo video,
-#kampagnevideo_instagram video,
-#kampagnevideo_facebook video,
-#kampagnevideo_baggrundsvideo video {
+video {
     width: 100%;
 }
 
 #kampagnevideo .video {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-}
-
-
-#trykt_kampagne {
-    margin: 1.5rem;
-    background-color: #383d45;
 }
 
 /****KAMPAGNEVIDEO SLUT****/
