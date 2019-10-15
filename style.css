@@ -251,17 +251,31 @@ header li a:hover {
 
 /****KAMPAGNEVIDEO****/
 
-#kampagnevideo {
+#kampagnevideo,
+#kampagnevideo_instagram,
+#kampagnevideo_facebook,
+#kampagnevideo_baggrundsvideo {
     background-color: #383d45;
 }
 
-#kampagnevideo video {
+#kampagnevideo video,
+#kampagnevideo_instagram video,
+#kampagnevideo_facebook video,
+#kampagnevideo_baggrundsvideo video {
     width: 100%;
 }
 
-#kampagnevideo .video {
+#kampagnevideo .video,
+#kampagnevideo_instagram .video,
+#kampagnevideo_facebook .video,
+#kampagnevideo_baggrundsvideo .video {
     margin: 1.5rem;
 
+}
+
+#trykt_kampagne {
+    margin: 1.5rem;
+    background-color: #383d45;
 }
 
 /****KAMPAGNEVIDEO SLUT****/
