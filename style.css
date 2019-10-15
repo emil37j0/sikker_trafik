@@ -29,7 +29,7 @@ img {
 h1 {
     font-family: 'impact';
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.4rem;
     text-transform: uppercase;
     margin: 0;
 }
@@ -37,7 +37,7 @@ h1 {
 h2 {
     font-family: 'impact';
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin: 0;
 }
 
@@ -208,12 +208,13 @@ header li a:hover {
     line-height: 1.3;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    padding-left: 1.5rem;
-    padding-right: 0.98rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 #kampagne1 h2 {
     color: white;
+    font-size: 1.4rem;
 }
 
 /****KAMPAGNE 1 SLUT****/
@@ -237,8 +238,12 @@ header li a:hover {
     padding-right: 0.98rem;
 }
 
+#kampagne2 .tekst1 {
+    margin-left: -0.4rem;
+}
+
 #kampagne2 .tekst2 {
-    margin-left: 8rem;
+    margin-left: 5rem;
 }
 
 #kampagne2 h1 {
@@ -261,10 +266,11 @@ header li a:hover {
 }
 
 #test .test {
+    margin: auto;
     background-image: url(img/test_mobil.png);
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    background-size: contain;
+    width: 372px;
+    height: 668px;
 }
 
 /****TEST SLUT****/
@@ -278,8 +284,8 @@ header li a:hover {
 #kampagne3 h1 {
     color: white;
     text-align: center;
+    margin-top: 1rem;
 }
-
 
 #kampagne3 h2 {
     color: white;
@@ -292,21 +298,28 @@ header li a:hover {
 #kampagne3 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 #kampagne3 .tekst {
     flex-grow: 1;
     flex-basis: 300px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.3rem;
+    line-height: 1.4;
+    margin-top: 1rem;
 }
 
 #kampagne3 .billede {
     flex-grow: 1;
     flex-basis: 300px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 1.2rem;
+}
+
+#kampagne3 .hashtag {
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
 }
 
 /****KAMPAGNE 3 SLUT****/
@@ -318,8 +331,8 @@ header li a:hover {
     line-height: 1.3;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    padding-left: 1.5rem;
-    padding-right: 0.98rem;
+    padding-left: 0.8rem;
+    padding-right: 0.6rem;
 }
 
 #kampagne4 h1 {
@@ -336,6 +349,7 @@ header li a:hover {
 
 #kampagne5 p {
     color: white;
+    margin-top: 1rem;
 }
 
 #kampagne5 h2 {
@@ -351,15 +365,19 @@ header li a:hover {
 #kampagne5 .tekst {
     flex-grow: 1;
     flex-basis: 300px;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: 1.4;
+    margin-top: 1rem;
 }
 
 #kampagne5 .billede {
     flex-grow: 1;
     flex-basis: 300px;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 /****KAMPAGNE 5 SLUT****/
@@ -375,6 +393,10 @@ p {
     color: white;
 }
 
+#kampagne6 h1 {
+    margin-bottom: 1rem;
+}
+
 #kampagne6 b {
     color: red;
 }
@@ -388,15 +410,19 @@ p {
 #kampagne6 .tekst {
     flex-grow: 1;
     flex-basis: 300px;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: 1.4;
+    margin-top: 1rem;
 }
 
 #kampagne6 .billede {
     flex-grow: 1;
     flex-basis: 300px;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 /****KAMPAGNE 6 SLUT****/
@@ -408,7 +434,7 @@ p {
     line-height: 1.3;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     padding-right: 0.25rem;
 }
 
@@ -429,6 +455,10 @@ p {
     color: white;
 }
 
+#kampagne8 h2 {
+    margin-bottom: 1rem;
+}
+
 #kampagne8 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -438,15 +468,19 @@ p {
 #kampagne8 .tekst {
     flex-grow: 1;
     flex-basis: 300px;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: 1.4;
+    margin-top: 1rem;
 }
 
 #kampagne8 .billede {
     flex-grow: 1;
     flex-basis: 300px;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 /****KAMPAGNE 8 SLUT****/
@@ -467,6 +501,75 @@ footer {
 }
 
 /****FOOTER SLUT****/
+
+@media only screen and (min-width:500px) {
+    #kampagne1 h2 {
+        font-size: 1.7rem;
+        margin-left: 0.5rem;
+        text-align: center;
+    }
+
+    #kampagne2 .tekst1 {
+        margin-left: 1.5rem;
+    }
+
+    #kampagne2 .tekst2 {
+        margin-left: 10rem;
+    }
+
+    #kampagne3 .tekst {
+        margin-left: 4rem;
+        margin-right: 3.5rem;
+        margin-top: 1rem;
+    }
+
+    #kampagne3 .billede {
+        margin-left: 4rem;
+        margin-right: 4rem;
+        margin-top: 1.2rem;
+    }
+
+    #kampagne4 h1 {
+        text-align: center;
+    }
+
+    #kampagne5 .tekst {
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+        margin-top: 1rem;
+    }
+
+    #kampagne5 .billede {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 1.2rem;
+    }
+
+    #kampagne5 h2 {
+        text-align: center;
+    }
+
+    #kampagne6 .tekst {
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+        margin-top: 1rem;
+    }
+
+    #kampagne6 .billede {
+        margin-left: 3rem;
+        margin-right: 2rem;
+        margin-top: 1.2rem;
+    }
+
+    #kampagne6 h1 {
+        text-align: center;
+        font-size: 2.1rem;
+    }
+
+    #kampagne7 h1 {
+        text-align: center;
+    }
+}
 
 @media only screen and (min-width:900px) {
     #test .test {
