@@ -270,19 +270,11 @@ header li a:hover {
     width: 100%;
 }
 
-<<<<<<< HEAD
 #kampagnevideo .video {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-=======
-#kampagnevideo .video,
-#kampagnevideo_instagram .video,
-#kampagnevideo_facebook .video,
-#kampagnevideo_baggrundsvideo .video {
-    margin: 1.5rem;
->>>>>>> origin/master
-
 }
+
 
 #trykt_kampagne {
     margin: 1.5rem;
