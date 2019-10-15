@@ -498,6 +498,33 @@ footer {
     bottom: 0;
     line-height: 1.5;
     100vw;
+
+}
+
+.ul_footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer_left {
+    text-align: left;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 10px 10px 10px 15px;
+}
+
+#footer_right {
+    text-align: right;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 10px 10px 15px 10px;
 }
 
 /****FOOTER SLUT****/
