@@ -324,11 +324,11 @@ video {
 }
 
 #kampagne2 .tekst1 {
-    margin-left: -3rem;
+    margin-left: -1rem;
 }
 
 #kampagne2 .tekst2 {
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 
 #kampagne2 h1 {
@@ -355,8 +355,8 @@ video {
     margin: auto;
     background-image: url(img/test_mobil.png);
     background-size: contain;
-    width: 372px;
-    height: 668px;
+    width: 100vw;
+    height: 100vh;
 }
 
 /****TEST SLUT****/
