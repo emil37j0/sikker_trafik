@@ -403,6 +403,10 @@ video {
     transition: 0.5s;
 }
 
+#kampagne3 h2 {
+    hyphens: none;
+}
+
 /****KAMPAGNE 3 SLUT****/
 
 /****KAMPAGNE 4****/
